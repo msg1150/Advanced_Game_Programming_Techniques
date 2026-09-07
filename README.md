@@ -1,7 +1,8 @@
-<img width="1277" height="736" alt="제목 없음" src="https://github.com/user-attachments/assets/b28f2218-516d-4f55-b231-67db978eeade" />
 # 고급게임프로그래밍기법
 
 고급게임프로그래밍기법 수업에서 진행한 실습 및 과제 작업물을 정리하는 저장소입니다.
+
+<img width="1277" height="736" alt="제목 없음" src="https://github.com/user-attachments/assets/b28f2218-516d-4f55-b231-67db978eeade" />
 
 ## 목적
 
