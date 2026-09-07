@@ -1,0 +1,124 @@
+# =========================================================
+# Common Git Ignore for Game Programming Projects
+# Visual Studio / C++ / Unreal Engine friendly
+# =========================================================
+
+# -------------------------
+# OS / Editor
+# -------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# -------------------------
+# Visual Studio
+# -------------------------
+.vs/
+*.VC.db
+*.VC.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+ipch/
+*.opensdf
+*.sdf
+*.opendb
+
+# Build results
+Debug/
+Release/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# C/C++
+*.obj
+*.o
+*.pch
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+
+# Keep source-controlled third-party binaries if needed.
+# If your class project intentionally tracks DLL/EXE files,
+# add an exception below, e.g.:
+# !ThirdParty/**/*.dll
+
+# -------------------------
+# Unreal Engine
+# -------------------------
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+
+# Unreal generated project files
+*.xcodeproj
+*.xcworkspace
+Makefile
+CMakeLists.txt
+CMakeSettings.json
+Makefile.ubt
+compile_commands.json
+
+# Unreal crash / cache files
+*.tmp
+*.log
+*.dmp
+
+# Do NOT ignore these by default:
+# Config/
+# Content/
+# Plugins/
+# Source/
+# *.uproject
+# *.uplugin
+
+# -------------------------
+# CMake
+# -------------------------
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+_build/
+build/
+
+# -------------------------
+# Package / temporary files
+# -------------------------
+*.bak
+*.old
+*.orig
+*.tmp
+*.temp
+*.cache
+
+# -------------------------
+# Archives / packaged builds
+# -------------------------
+*.zip
+*.7z
+*.rar
+
+# Add project-specific packaged output directories here when needed:
+# Packaged/
+# Builds/
