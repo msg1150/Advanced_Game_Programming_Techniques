@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source"><UniqueIdentifier>{8D098BA8-551F-4EBB-A189-9046AD7ED8F7}</UniqueIdentifier></Filter>
+    <Filter Include="Source\Core"><UniqueIdentifier>{63DB4B9C-06CF-4D52-83F0-68153CE3A792}</UniqueIdentifier></Filter>
+    <Filter Include="Source\Platform"><UniqueIdentifier>{8CD96939-5072-47F6-BA65-B98B1BC38827}</UniqueIdentifier></Filter>
+    <Filter Include="Source\Input"><UniqueIdentifier>{7047EE74-A568-4F9C-A96F-DAC035374EAB}</UniqueIdentifier></Filter>
+    <Filter Include="Source\Graphics"><UniqueIdentifier>{0CED10E0-319A-4748-9A03-02D1D74937F0}</UniqueIdentifier></Filter>
+    <Filter Include="Source\Features"><UniqueIdentifier>{D1597B21-95E1-4E5D-9275-0E2C8560B8D1}</UniqueIdentifier></Filter>
+    <Filter Include="Source\Features\PerlinTerrain"><UniqueIdentifier>{FBF6F7B0-24E8-4D10-941F-686F02C87AF2}</UniqueIdentifier></Filter>
+    <Filter Include="Shaders"><UniqueIdentifier>{411E8D2E-C15C-4A94-AC2C-F3630D8A69A1}</UniqueIdentifier></Filter>
+    <Filter Include="Shaders\Basic"><UniqueIdentifier>{A540F5B3-75A3-4115-B82C-2672D7202A79}</UniqueIdentifier></Filter>
+    <Filter Include="Shaders\PerlinTerrain"><UniqueIdentifier>{7CD61671-1780-4B61-97D8-A07668CC72A9}</UniqueIdentifier></Filter>
+    <Filter Include="Project Files"><UniqueIdentifier>{E5B2B7F7-21FA-4A24-B55C-472ABCB72A3B}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="Source\Core\Application.cpp"><Filter>Source\Core</Filter></ClCompile>
+    <ClCompile Include="Source\Core\Timer.cpp"><Filter>Source\Core</Filter></ClCompile>
+    <ClCompile Include="Source\Platform\Window.cpp"><Filter>Source\Platform</Filter></ClCompile>
+    <ClCompile Include="Source\Input\Input.cpp"><Filter>Source\Input</Filter></ClCompile>
+    <ClCompile Include="Source\Graphics\Renderer.cpp"><Filter>Source\Graphics</Filter></ClCompile>
+    <ClCompile Include="Source\Graphics\Camera.cpp"><Filter>Source\Graphics</Filter></ClCompile>
+    <ClCompile Include="Source\Graphics\CameraController.cpp"><Filter>Source\Graphics</Filter></ClCompile>
+    <ClCompile Include="Source\Graphics\Mesh.cpp"><Filter>Source\Graphics</Filter></ClCompile>
+    <ClCompile Include="Source\Graphics\Shader.cpp"><Filter>Source\Graphics</Filter></ClCompile>
+    <ClCompile Include="Source\Features\PerlinTerrain\PerlinNoise.cpp"><Filter>Source\Features\PerlinTerrain</Filter></ClCompile>
+    <ClCompile Include="Source\Features\PerlinTerrain\PerlinTerrainGenerator.cpp"><Filter>Source\Features\PerlinTerrain</Filter></ClCompile>
+    <ClCompile Include="Source\Features\PerlinTerrain\PerlinTerrain.cpp"><Filter>Source\Features\PerlinTerrain</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Core\Application.h"><Filter>Source\Core</Filter></ClInclude>
+    <ClInclude Include="Source\Core\Timer.h"><Filter>Source\Core</Filter></ClInclude>
+    <ClInclude Include="Source\Platform\Window.h"><Filter>Source\Platform</Filter></ClInclude>
+    <ClInclude Include="Source\Input\Input.h"><Filter>Source\Input</Filter></ClInclude>
+    <ClInclude Include="Source\Graphics\Renderer.h"><Filter>Source\Graphics</Filter></ClInclude>
+    <ClInclude Include="Source\Graphics\Camera.h"><Filter>Source\Graphics</Filter></ClInclude>
+    <ClInclude Include="Source\Graphics\CameraController.h"><Filter>Source\Graphics</Filter></ClInclude>
+    <ClInclude Include="Source\Graphics\Transform.h"><Filter>Source\Graphics</Filter></ClInclude>
+    <ClInclude Include="Source\Graphics\Mesh.h"><Filter>Source\Graphics</Filter></ClInclude>
+    <ClInclude Include="Source\Graphics\Shader.h"><Filter>Source\Graphics</Filter></ClInclude>
+    <ClInclude Include="Source\Graphics\ConstantBuffer.h"><Filter>Source\Graphics</Filter></ClInclude>
+    <ClInclude Include="Source\Features\PerlinTerrain\PerlinNoise.h"><Filter>Source\Features\PerlinTerrain</Filter></ClInclude>
+    <ClInclude Include="Source\Features\PerlinTerrain\PerlinTerrainGenerator.h"><Filter>Source\Features\PerlinTerrain</Filter></ClInclude>
+    <ClInclude Include="Source\Features\PerlinTerrain\PerlinTerrain.h"><Filter>Source\Features\PerlinTerrain</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Basic\BasicVS.hlsl"><Filter>Shaders\Basic</Filter></None>
+    <None Include="Shaders\Basic\BasicPS.hlsl"><Filter>Shaders\Basic</Filter></None>
+    <None Include="Shaders\PerlinTerrain\TerrainVS.hlsl"><Filter>Shaders\PerlinTerrain</Filter></None>
+    <None Include="Shaders\PerlinTerrain\TerrainPS.hlsl"><Filter>Shaders\PerlinTerrain</Filter></None>
+    <None Include="BUILD.md"><Filter>Project Files</Filter></None>
+    <None Include="CMakeLists.txt"><Filter>Project Files</Filter></None>
+  </ItemGroup>
+</Project>
