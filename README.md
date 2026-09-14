@@ -26,4 +26,15 @@
 - **QuadTree Frustum Culling**  
   Terrain을 QuadTree로 분할하고 Camera Frustum 밖의 영역을 렌더링에서 제외하도록 구현했습니다. `F1`로 Culling ON/OFF를 전환하고 화면에서 Visible Leaves, Rendered Triangles 등의 통계를 확인할 수 있습니다.
 
+## 2026-09-14
+
+- **QuadTree LOD**  
+  Camera와 Terrain 영역 사이의 거리를 기준으로 QuadTree Node의 Detail Level을 선택하여, 가까운 영역은 높은 해상도로 유지하고 먼 영역은 적은 Triangle로 렌더링하도록 구현했습니다. `F2`로 LOD ON/OFF를 전환하고 Surface Triangles와 LOD별 Node 통계를 확인할 수 있습니다.
+
+- **Showcase Visibility Toggle**  
+  누적된 테스트 오브젝트와 Terrain을 개별적으로 확인할 수 있도록 숫자키 `1~0` 기반 표시 ON/OFF 기능을 추가했습니다. 현재 Cube, Perlin Terrain, HeightMap Terrain, QuadTree LOD Terrain, Triplanar Terrain을 각각 분리해서 확인할 수 있습니다.
+
+- **Triplanar Mapping**  
+  Terrain의 World Position과 World Normal을 기준으로 X / Y / Z 방향에서 Texture를 투영하고 혼합하여, 절벽과 같이 경사가 큰 영역에서 발생하는 Texture Stretching을 줄이도록 구현했습니다. 기존 Height / Slope 기반 Grass / Rock / Snow Texture Splatting과 QuadTree LOD 구조는 그대로 유지합니다.
+
 각 단계의 세부 구현 내용은 해당 프로젝트 폴더의 `README.md`에 정리합니다.
