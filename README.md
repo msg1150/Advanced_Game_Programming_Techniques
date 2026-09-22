@@ -54,4 +54,18 @@
 - **미니맵 배율 및 숫자 직접 입력** — [MiniMap Zoom v0.4](DXFramework_DiskTerrainStreaming_v0.4_MiniMapZoom_VisualStudio/) · [Numeric Input v0.5](DXFramework_DiskTerrainStreaming_v0.5_NumericInput_VisualStudio/)  
   미니맵 패널 크기와 실제 로딩 범위는 유지하면서 내부 격자·반경선의 표시 배율만 50~400%로 조절하는 슬라이더를 추가했습니다. Load Radius 및 MiniMap Zoom 값은 숫자 입력칸에서도 직접 수정할 수 있으며, Enter 적용·Esc 취소·입력 범위 제한과 편집 중 WASD 이동 차단을 구현했습니다.
 
+## 2026-09-22
+
+- **Predictive Prefetch 및 CPU LRU Cache** — [DiskTerrainStreaming v0.7](DXFramework_DiskTerrainStreaming_v0.7_LoadMetrics_VisualStudio/)  
+  카메라 이동 방향의 Tile을 미리 읽는 Predictive Prefetch와 Tile 높이 데이터를 재사용하는 용량 제한 CPU LRU Cache를 구현했습니다. 필수 Tile 요청을 우선 처리하고, UI에서 Prefetch·Cache 활성화 여부, 선행 거리 및 Cache 용량을 조절할 수 있도록 했습니다. GPU Mesh는 기존처럼 필요 범위를 벗어나면 해제합니다.
+
+- **Streaming 성능 계측** — [Load Metrics v0.7](DXFramework_DiskTerrainStreaming_v0.7_LoadMetrics_VisualStudio/)  
+  Cache Hit/Miss, Disk Read Time(최근·평균·누적), Tile Load Time(최근·평균·누적), 완료된 Tile Load 수를 Debug 통계에 추가했습니다. Tile Load Time은 필수 요청부터 GPU 버퍼 생성 및 설치 완료까지의 경과시간이며 실제 GPU Draw 완료 시간은 포함하지 않습니다. 사용자가 Windows 환경에서 기능 동작을 확인했으며, 성능 개선 폭에 대한 동일 경로 ON/OFF 비교 측정은 아직 진행하지 않았습니다.
+
+- **접이식 설정창 및 반투명 통계창** — [Collapsible UI v0.8.1](DXFramework_DiskTerrainStreaming_v0.8.1_TranslucentStats_VisualStudio/)  
+  설정창을 기본적으로 닫아두고 우측 버튼으로 열고 닫으며, 제목줄 드래그로 이동할 수 있도록 변경했습니다. UI 문구를 한글 중심으로 정리하되 기술 용어는 영어를 유지했습니다. 통계창 배경의 불투명도를 0.68로 낮추고 글자와 테두리는 그대로 표시하도록 했습니다.
+
+- **재사용 가능한 Custom UI Framework v0.2** — [DiskTerrainStreaming v0.9](DXFramework_DiskTerrainStreaming_v0.9_UIFramework_v0.2_VisualStudio/)  
+  공통 패널 등록 API, 위젯 높이 기반 레이아웃, 다중 패널 입력·포커스 관리, UI Theme 및 패널 본문 Clip을 정리했습니다. Terrain에 의존하지 않는 테스트 패널에서 Checkbox·Slider·Button·숫자 입력을 확인하고 기존 Terrain 설정 기능을 유지했습니다. 사용자가 실제 실행 테스트를 완료했습니다. 이 단계 프로젝트의 README는 `README.md` 한 개만 유지합니다.
+
 각 단계의 세부 구현 내용과 빌드·테스트 방법은 해당 프로젝트 폴더의 `README.md`에 정리합니다.
