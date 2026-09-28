@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  UIDocument v1 sample.
+  구조는 XML, 동작은 UIBindingRegistry의 이름으로 연결한다.
+  Unity UXML/XAML/RML처럼 문서가 C++ 타입을 직접 알 필요가 없도록 분리한다.
+-->
+<UIDocument version="1">
+  <Panel id="UIDemo" title="UIDocument XML 테스트" openLabel="UI XML" closeLabel="XML 닫기" width="360" height="360">
+    <Column>
+      <Label id="Intro" text="이 Panel은 Assets/UI/UIDemo.ui.xml에서 생성됩니다." />
+      <CheckBox id="Enabled" text="테스트 Checkbox" binding="Demo.Enabled" />
+      <Slider id="Value" text="테스트 Slider" min="0" max="100" step="5" binding="Demo.Value" />
+      <Button id="Click" text="테스트 Button" action="Demo.Click" />
+      <Label id="ClickCount" textBinding="Demo.ClickText" />
+      <Button id="Reset" text="Demo 값 초기화" action="Demo.Reset" />
+      <Label text="XML 구조 / C++ Binding을 분리한 Runtime 예제" />
+    </Column>
+  </Panel>
+</UIDocument>
