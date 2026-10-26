@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Override on the MSBuild command line, or edit this copy's defaults. -->
+  <PropertyGroup>
+    <EnableGPUPicking Condition="'$(EnableGPUPicking)'==''">true</EnableGPUPicking>
+    <EnableScenePersistence Condition="'$(EnableScenePersistence)'==''">true</EnableScenePersistence>
+    <EnableTerrainQuery Condition="'$(EnableTerrainQuery)'==''">true</EnableTerrainQuery>
+    <EnableTerrainPlacement Condition="'$(EnableTerrainPlacement)'==''">$(EnableTerrainQuery)</EnableTerrainPlacement>
+    <EnableTerrainPlacement Condition="'$(EnableTerrainQuery)'!='true'">false</EnableTerrainPlacement>
+    <GPUFlag>0</GPUFlag><GPUFlag Condition="'$(EnableGPUPicking)'=='true'">1</GPUFlag>
+    <SceneFlag>0</SceneFlag><SceneFlag Condition="'$(EnableScenePersistence)'=='true'">1</SceneFlag>
+    <QueryFlag>0</QueryFlag><QueryFlag Condition="'$(EnableTerrainQuery)'=='true'">1</QueryFlag>
+    <EffectiveTerrainPlacement>false</EffectiveTerrainPlacement>
+    <EffectiveTerrainPlacement Condition="'$(EnableTerrainPlacement)'=='true' And '$(EnableTerrainQuery)'=='true'">true</EffectiveTerrainPlacement>
+    <PlacementFlag>0</PlacementFlag><PlacementFlag Condition="'$(EffectiveTerrainPlacement)'=='true'">1</PlacementFlag>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile><PreprocessorDefinitions>DX_ENABLE_GPU_PICKING=$(GPUFlag);DX_ENABLE_SCENE_PERSISTENCE=$(SceneFlag);DX_ENABLE_TERRAIN_QUERY=$(QueryFlag);DX_ENABLE_TERRAIN_PLACEMENT=$(PlacementFlag);%(PreprocessorDefinitions)</PreprocessorDefinitions></ClCompile>
+  </ItemDefinitionGroup>
+</Project>
