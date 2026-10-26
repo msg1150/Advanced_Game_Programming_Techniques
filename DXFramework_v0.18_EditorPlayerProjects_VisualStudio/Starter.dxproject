@@ -1,0 +1,7 @@
+DXPROJECT 1
+"name" "기본 프로젝트"
+"assetRoot" "."
+"startupScene" "Assets/Scenes/Runtime.engine.scene"
+"terrain" "Assets/TerrainTiles"
+"content.0" "Assets"
+"content.1" "Shaders"

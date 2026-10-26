@@ -1,0 +1,526 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{77A6A703-28E3-5F89-BE2F-13F5C015869F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{505D3AB8-F5B7-5BB3-B048-BCAE49E9FBEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{C0E955E5-C4D4-589E-823A-3449CC862C8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features">
+      <UniqueIdentifier>{6900241B-18D0-5839-9FDC-B0E5DCAD32A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\CollisionEditor">
+      <UniqueIdentifier>{AB7AB81D-C0B6-5D1F-B88B-1F01ADB92A74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\GPUPicking">
+      <UniqueIdentifier>{6F1E262D-F440-52FB-AF04-3FFC3F05DDBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\ScenePersistence">
+      <UniqueIdentifier>{422DE781-9F83-5BB0-A7FB-2E318BAB9766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\TerrainPlacement">
+      <UniqueIdentifier>{A0BEC135-860B-5038-8E67-DA30BA3B2508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\TerrainUI">
+      <UniqueIdentifier>{CC47BD5F-EB33-58B8-9A17-94C071F7AEA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\UIDemo">
+      <UniqueIdentifier>{8BC5179F-DDDB-574A-BE90-D0E138A8B444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene">
+      <UniqueIdentifier>{9E10D64D-BB78-5D16-B5EB-C2D86E096C37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\Runtime">
+      <UniqueIdentifier>{ED8A2755-ED93-5CAF-8B18-3B10942BEEE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\Serialization">
+      <UniqueIdentifier>{4746960F-C7DA-59EC-8866-062AF59A8C62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools">
+      <UniqueIdentifier>{0B2F52D8-2697-5693-8679-ED40CFA812BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\UIDesigner">
+      <UniqueIdentifier>{300FA893-6A1D-5F1F-B26A-498D05B73BF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\UIDesigner\Canvas">
+      <UniqueIdentifier>{E9275CD3-1A5F-541F-BBE9-D23FDBE3ACEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\UIDesigner\Core">
+      <UniqueIdentifier>{328D51C1-A238-5BB1-B378-D385CC8DD960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\UIDesigner\Window">
+      <UniqueIdentifier>{D11DDB37-4D75-520E-949C-BCAA7548EF4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI">
+      <UniqueIdentifier>{2D2AF12B-9F3B-5F93-A56E-7E02E44369FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\Document">
+      <UniqueIdentifier>{42C5E73F-D752-57DE-BEB6-2FD392048BD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\Document\Runtime">
+      <UniqueIdentifier>{3A0848E5-AA0C-5A52-ACE5-D8FDA28F6AE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\Document\Serialization">
+      <UniqueIdentifier>{E35B6769-87E7-5233-9AB4-A5DF092C0BA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\EngineRuntime">
+      <UniqueIdentifier>{98388C8C-A3A7-5083-84DD-724D685EAD5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Platform">
+      <UniqueIdentifier>{9827834B-EA11-5657-8B3B-85418C13AB33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Editor">
+      <UniqueIdentifier>{D10515C6-6059-5256-A82C-4754BC36F7C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Input">
+      <UniqueIdentifier>{2C51B167-C635-53F7-81C9-71A53DB496AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\IO">
+      <UniqueIdentifier>{9E93BE7E-0594-5C21-BE9D-49B328D0A7E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Text">
+      <UniqueIdentifier>{DDF3B29D-EAAE-55BD-AF04-C81016B4D32D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine">
+      <UniqueIdentifier>{3F2D1F57-FB88-5908-9041-995D1847A46C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Collision">
+      <UniqueIdentifier>{197F4D59-470B-5368-B43E-93A0C368688C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Components">
+      <UniqueIdentifier>{F096F579-0755-5090-A30F-26B2CC359B18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Core">
+      <UniqueIdentifier>{A0DB3C6A-1C2A-5542-B5E1-0F9AB0A2F1C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Gameplay">
+      <UniqueIdentifier>{009A433B-8627-5DA9-B79A-D7F824F2C810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Graphics">
+      <UniqueIdentifier>{98FC5A19-C4CD-5E7D-81BF-0118A5CD6C04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Project">
+      <UniqueIdentifier>{9F8726BE-ACD3-5DFF-AA56-FBBD69DF42C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Resources">
+      <UniqueIdentifier>{A5F0ABFD-439F-5CDB-9B81-F31CB19D45E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Runtime">
+      <UniqueIdentifier>{4CDB7256-66F7-51E9-8C1E-6A44B6717B89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Serialization">
+      <UniqueIdentifier>{6975B9C6-35DB-56B5-A117-ACA78B44726C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\DiskTerrainStreaming">
+      <UniqueIdentifier>{D44893E7-0483-5474-BCF7-A21F657CF798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\QuadTreeLOD">
+      <UniqueIdentifier>{BAF8D498-A469-5209-9606-25F42AF89912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\QuadTreeLODGeomorph">
+      <UniqueIdentifier>{53885EF2-9F7E-566B-91FB-CFED2AABD3B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\TriplanarTerrain">
+      <UniqueIdentifier>{5D6E9295-6FB1-55AC-8323-EC6035F3B1BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Debug">
+      <UniqueIdentifier>{8E47BEE0-16F4-59BF-8ED8-B61739B9C985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics">
+      <UniqueIdentifier>{79D04D87-40CB-5D4A-9540-0A13919F83F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics\Query">
+      <UniqueIdentifier>{FC75BA2B-A5C5-5BC6-B9D3-7B578FA760A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics\Collision">
+      <UniqueIdentifier>{4F41B91F-ED1C-525A-80D0-0F7E3ECF59FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics\Collision\BroadPhase">
+      <UniqueIdentifier>{7931EB2A-512B-510F-9377-11018D1852D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics\Collision\Core">
+      <UniqueIdentifier>{A15686A2-B72E-561C-8AD8-6911ECA21D8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics\Collision\Detection">
+      <UniqueIdentifier>{992E149C-78A4-56BE-8669-36296D83995E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Terrain">
+      <UniqueIdentifier>{87A15452-3271-59B5-91D0-2F4D6890DA07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Terrain\Query">
+      <UniqueIdentifier>{171A8552-9C5B-5677-BDA9-EA0D6CE4F274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\Document\Model">
+      <UniqueIdentifier>{6E31F66C-48F6-55FB-829B-910E676A8B0C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Application.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\DebugTextRenderer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\CollisionEditor\CollisionDebugRenderer.cpp">
+      <Filter>Source\Features\CollisionEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\CollisionEditor\CollisionEditorPanel.cpp">
+      <Filter>Source\Features\CollisionEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\CollisionEditor\CollisionGeometry.cpp">
+      <Filter>Source\Features\CollisionEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\CollisionEditor\CollisionScene.cpp">
+      <Filter>Source\Features\CollisionEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\GPUPicking\GPUPickingSystem.cpp">
+      <Filter>Source\Features\GPUPicking</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\ScenePersistence\ScenePersistenceFeature.cpp">
+      <Filter>Source\Features\ScenePersistence</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\TerrainPlacement\TerrainPlacementFeature.cpp">
+      <Filter>Source\Features\TerrainPlacement</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\TerrainUI\TerrainSettingsPanel.cpp">
+      <Filter>Source\Features\TerrainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\UIDemo\UIDemoPanel.cpp">
+      <Filter>Source\Features\UIDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Runtime\ColliderSceneAdapter.cpp">
+      <Filter>Source\Scene\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Serialization\ColliderSceneDocument.cpp">
+      <Filter>Source\Scene\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\UIDesigner\Canvas\UIDesignerCanvas.cpp">
+      <Filter>Source\Tools\UIDesigner\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\UIDesigner\Core\UIDesignerModel.cpp">
+      <Filter>Source\Tools\UIDesigner\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\UIDesigner\Window\UIDesignerWindow.cpp">
+      <Filter>Source\Tools\UIDesigner\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\UIManager.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\UIRenderer.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\UIWidget.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\Document\Runtime\UIDocumentLoader.cpp">
+      <Filter>Source\UI\Document\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\Document\Runtime\UIWidgetFactory.cpp">
+      <Filter>Source\UI\Document\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\Document\Serialization\UIXmlParser.cpp">
+      <Filter>Source\UI\Document\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\Document\Serialization\UIXmlWriter.cpp">
+      <Filter>Source\UI\Document\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\EngineRuntime\EngineRuntimeFeature.cpp">
+      <Filter>Source\Features\EngineRuntime</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\SceneFileDialogs.cpp">
+      <Filter>Source\Platform</Filter>
+    </ClCompile>
+    <ClInclude Include="Source\Core\Application.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\FeatureConfig.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Timer.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Editor\EditorApplication.h">
+      <Filter>Source\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Editor\ProjectWindow.h">
+      <Filter>Source\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Camera.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\CameraController.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ConstantBuffer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\DebugTextRenderer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Frustum.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Mesh.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Renderer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Texture2D.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Transform.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\Input.h">
+      <Filter>Source\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\FolderDialog.h">
+      <Filter>Source\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\SceneFileDialogs.h">
+      <Filter>Source\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\UnicodeProcess.h">
+      <Filter>Source\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Window.h">
+      <Filter>Source\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UILayout.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIManager.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UINumericValue.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIPlacement.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIRenderer.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIScroll.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UISliderMath.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UITheme.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIWidget.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\IO\AtomicFile.h">
+      <Filter>Source\Core\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\IO\Paths.h">
+      <Filter>Source\Core\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Text\Utf8.h">
+      <Filter>Source\Core\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Collision\CollisionBody.h">
+      <Filter>Source\Engine\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Components\ObjectLink.h">
+      <Filter>Source\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Core\Properties.h">
+      <Filter>Source\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Core\Scene.h">
+      <Filter>Source\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Core\Transform.h">
+      <Filter>Source\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Gameplay\Movement.h">
+      <Filter>Source\Engine\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Graphics\GraphicsResources.h">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Graphics\MeshRendererComponent.h">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Project\Project.h">
+      <Filter>Source\Engine\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Resources\ResourceCache.h">
+      <Filter>Source\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Runtime\RuntimeSession.h">
+      <Filter>Source\Engine\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Serialization\SceneSerializer.h">
+      <Filter>Source\Engine\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\CollisionEditor\CollisionDebugRenderer.h">
+      <Filter>Source\Features\CollisionEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\CollisionEditor\CollisionEditorPanel.h">
+      <Filter>Source\Features\CollisionEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\CollisionEditor\CollisionGeometry.h">
+      <Filter>Source\Features\CollisionEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\CollisionEditor\CollisionScene.h">
+      <Filter>Source\Features\CollisionEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\DiskTerrainManager.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\DiskTileWorker.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\MiniMapZoomPolicy.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\PrefetchPolicy.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\StreamingRadiusPolicy.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\StreamingRangeDebugRenderer.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\StreamingTiming.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\TileArchive.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\TileGeometryBuilder.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\TileSampleCache.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\EngineRuntime\EngineRuntimeFeature.h">
+      <Filter>Source\Features\EngineRuntime</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\GPUPicking\GPUPickingSystem.h">
+      <Filter>Source\Features\GPUPicking</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\QuadTreeLOD\QuadTreeLOD.h">
+      <Filter>Source\Features\QuadTreeLOD</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\QuadTreeLOD\QuadTreeLODSelector.h">
+      <Filter>Source\Features\QuadTreeLOD</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\QuadTreeLODGeomorph\QuadTreeLODGeomorph.h">
+      <Filter>Source\Features\QuadTreeLODGeomorph</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\QuadTreeLODGeomorph\QuadTreeLODGeomorphPolicy.h">
+      <Filter>Source\Features\QuadTreeLODGeomorph</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\QuadTreeLODGeomorph\QuadTreeLODGeomorphWorker.h">
+      <Filter>Source\Features\QuadTreeLODGeomorph</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\ScenePersistence\ScenePersistenceFeature.h">
+      <Filter>Source\Features\ScenePersistence</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\TerrainPlacement\TerrainPlacementFeature.h">
+      <Filter>Source\Features\TerrainPlacement</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\TerrainUI\TerrainSettingsPanel.h">
+      <Filter>Source\Features\TerrainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\TriplanarTerrain\TriplanarMaterial.h">
+      <Filter>Source\Features\TriplanarTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\UIDemo\UIDemoPanel.h">
+      <Filter>Source\Features\UIDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Debug\CollisionDebugRenderer.h">
+      <Filter>Source\Graphics\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Debug\CollisionGeometry.h">
+      <Filter>Source\Graphics\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Query\Raycast.h">
+      <Filter>Source\Physics\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\BroadPhase\BroadPhaseSystem.h">
+      <Filter>Source\Physics\Collision\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\Core\CollisionMath.h">
+      <Filter>Source\Physics\Collision\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\Core\CollisionResult.h">
+      <Filter>Source\Physics\Collision\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\Core\CollisionTypes.h">
+      <Filter>Source\Physics\Collision\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\Core\CollisionWorld.h">
+      <Filter>Source\Physics\Collision\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\Detection\CollisionDetector.h">
+      <Filter>Source\Physics\Collision\Detection</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Runtime\ColliderSceneAdapter.h">
+      <Filter>Source\Scene\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Serialization\ColliderSceneDocument.h">
+      <Filter>Source\Scene\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Terrain\Query\DiskTerrainQuerySource.h">
+      <Filter>Source\Terrain\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Terrain\Query\TerrainPlacement.h">
+      <Filter>Source\Terrain\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Terrain\Query\TerrainQuery.h">
+      <Filter>Source\Terrain\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\UIDesigner\Canvas\UIDesignerCanvas.h">
+      <Filter>Source\Tools\UIDesigner\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\UIDesigner\Core\UIDesignerModel.h">
+      <Filter>Source\Tools\UIDesigner\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\UIDesigner\Window\UIDesignerWindow.h">
+      <Filter>Source\Tools\UIDesigner\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Document\Model\UIBindingRegistry.h">
+      <Filter>Source\UI\Document\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Document\Model\UIDocument.h">
+      <Filter>Source\UI\Document\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Document\Runtime\UIDocumentLoader.h">
+      <Filter>Source\UI\Document\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Document\Runtime\UIWidgetFactory.h">
+      <Filter>Source\UI\Document\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Document\Serialization\UIUtf8.h">
+      <Filter>Source\UI\Document\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Document\Serialization\UIXmlParser.h">
+      <Filter>Source\UI\Document\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Document\Serialization\UIXmlWriter.h">
+      <Filter>Source\UI\Document\Serialization</Filter>
+    </ClInclude>
+    <None Include="Source\Platform\app.manifest">
+      <Filter>Source\Platform</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{674A3CE0-F229-58E6-B241-F23D48399DAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Player">
+      <UniqueIdentifier>{8D4F9EAC-97E5-567D-B59F-2C65E5F3A57D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Platform">
+      <UniqueIdentifier>{18CB86E8-ACE5-54B8-926D-8DE41A658513}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Player\Main.cpp">
+      <Filter>Source\Player</Filter>
+    </ClCompile>
+    <None Include="Source\Platform\app.manifest">
+      <Filter>Source\Platform</Filter>
+    </None>
+  </ItemGroup>
+</Project>

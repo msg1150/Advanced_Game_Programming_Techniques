@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <EnableGPUPicking Condition="'$(EnableGPUPicking)'==''">true</EnableGPUPicking>
+    <EnableScenePersistence Condition="'$(EnableScenePersistence)'==''">true</EnableScenePersistence>
+    <EnableTerrainQuery Condition="'$(EnableTerrainQuery)'==''">true</EnableTerrainQuery>
+    <EnableTerrainPlacement Condition="'$(EnableTerrainPlacement)'==''">$(EnableTerrainQuery)</EnableTerrainPlacement>
+    <EnableTerrainPlacement Condition="'$(EnableTerrainQuery)'!='true'">false</EnableTerrainPlacement>
+    <GPUFlag>0</GPUFlag>
+    <GPUFlag Condition="'$(EnableGPUPicking)'=='true'">1</GPUFlag>
+    <SceneFlag>0</SceneFlag>
+    <SceneFlag Condition="'$(EnableScenePersistence)'=='true'">1</SceneFlag>
+    <QueryFlag>0</QueryFlag>
+    <QueryFlag Condition="'$(EnableTerrainQuery)'=='true'">1</QueryFlag>
+    <EffectiveTerrainPlacement>false</EffectiveTerrainPlacement>
+    <EffectiveTerrainPlacement Condition="'$(EnableTerrainPlacement)'=='true' And '$(EnableTerrainQuery)'=='true'">true</EffectiveTerrainPlacement>
+    <PlacementFlag>0</PlacementFlag>
+    <PlacementFlag Condition="'$(EffectiveTerrainPlacement)'=='true'">1</PlacementFlag>
+    <EnableEngineRuntime Condition="'$(EnableEngineRuntime)'==''">true</EnableEngineRuntime>
+    <EffectiveEngineRuntime>false</EffectiveEngineRuntime>
+    <EffectiveEngineRuntime Condition="'$(EnableEngineRuntime)'=='true'">true</EffectiveEngineRuntime>
+    <EngineRuntimeFlag>0</EngineRuntimeFlag>
+    <EngineRuntimeFlag Condition="'$(EffectiveEngineRuntime)'=='true'">1</EngineRuntimeFlag>
+    <EnableEngineGraphics Condition="'$(EnableEngineGraphics)'==''">true</EnableEngineGraphics>
+    <EffectiveEngineGraphics>false</EffectiveEngineGraphics>
+    <EffectiveEngineGraphics Condition="'$(EnableEngineRuntime)'=='true' And '$(EnableEngineGraphics)'=='true'">true</EffectiveEngineGraphics>
+    <EngineGraphicsFlag>0</EngineGraphicsFlag>
+    <EngineGraphicsFlag Condition="'$(EffectiveEngineGraphics)'=='true'">1</EngineGraphicsFlag>
+    <EnableEngineCollision Condition="'$(EnableEngineCollision)'==''">true</EnableEngineCollision>
+    <EffectiveEngineCollision>false</EffectiveEngineCollision>
+    <EffectiveEngineCollision Condition="'$(EnableEngineRuntime)'=='true' And '$(EnableEngineCollision)'=='true'">true</EffectiveEngineCollision>
+    <EngineCollisionFlag>0</EngineCollisionFlag>
+    <EngineCollisionFlag Condition="'$(EffectiveEngineCollision)'=='true'">1</EngineCollisionFlag>
+    <EnableEngineGameplay Condition="'$(EnableEngineGameplay)'==''">true</EnableEngineGameplay>
+    <EffectiveEngineGameplay>false</EffectiveEngineGameplay>
+    <EffectiveEngineGameplay Condition="'$(EnableEngineRuntime)'=='true' And '$(EnableEngineGameplay)'=='true'">true</EffectiveEngineGameplay>
+    <EngineGameplayFlag>0</EngineGameplayFlag>
+    <EngineGameplayFlag Condition="'$(EffectiveEngineGameplay)'=='true'">1</EngineGameplayFlag>
+    <EnableWorldTerrain Condition="'$(EnableWorldTerrain)'==''">true</EnableWorldTerrain>
+    <WorldTerrainFlag>0</WorldTerrainFlag>
+    <WorldTerrainFlag Condition="'$(EnableWorldTerrain)'=='true'">1</WorldTerrainFlag>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>DX_ENABLE_WORLD_TERRAIN=$(WorldTerrainFlag);DX_ENABLE_ENGINE_RUNTIME=$(EngineRuntimeFlag);DX_ENABLE_ENGINE_GRAPHICS=$(EngineGraphicsFlag);DX_ENABLE_ENGINE_COLLISION=$(EngineCollisionFlag);DX_ENABLE_ENGINE_GAMEPLAY=$(EngineGameplayFlag);DX_ENABLE_GPU_PICKING=$(GPUFlag);DX_ENABLE_SCENE_PERSISTENCE=$(SceneFlag);DX_ENABLE_TERRAIN_QUERY=$(QueryFlag);DX_ENABLE_TERRAIN_PLACEMENT=$(PlacementFlag);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+</Project>

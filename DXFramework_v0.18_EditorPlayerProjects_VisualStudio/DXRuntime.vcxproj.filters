@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{CE1CAD2B-D63B-58F5-82E3-9A6FA79C3695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{278DE0DE-488A-5FE5-8CEB-99E584129C4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\IO">
+      <UniqueIdentifier>{6C909EBB-0E95-55F7-8CAA-A6CE212D2EB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine">
+      <UniqueIdentifier>{9973D2C8-7757-5A34-97C2-C97EFDF155BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Core">
+      <UniqueIdentifier>{DA7DC91C-B73B-5891-BC0E-AB7C55DCC64B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Project">
+      <UniqueIdentifier>{0B49582B-4F81-5A13-A348-ECF54627B118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Serialization">
+      <UniqueIdentifier>{01B548E9-8A7A-5F76-8299-B5E318498D9E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Runtime">
+      <UniqueIdentifier>{066D215A-2504-5189-B482-3766ACF72069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics">
+      <UniqueIdentifier>{927689C7-E03C-5D0A-BA80-C9178522E125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics\Collision">
+      <UniqueIdentifier>{AF439263-57E3-5BBC-B17E-9EF376CC0C38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics\Collision\BroadPhase">
+      <UniqueIdentifier>{9C7FB188-6363-5592-ADD3-EE1FECD77E28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics\Collision\Core">
+      <UniqueIdentifier>{A8DE1968-D421-5E64-9F18-15BE95FA65D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics\Collision\Detection">
+      <UniqueIdentifier>{453390C2-38A0-50C4-895F-F9A796AC8D78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics\Query">
+      <UniqueIdentifier>{9B3CE0A9-F7AB-59DC-8164-6999BB782370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{D6C8A7BE-5107-5C77-8356-D5627539AD82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Debug">
+      <UniqueIdentifier>{C592953A-EAC3-537D-BB2A-F3A587B4B701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Input">
+      <UniqueIdentifier>{B6788311-F0F4-5D8F-96C7-C7C9BC4AE058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Platform">
+      <UniqueIdentifier>{BC8AA84C-13BC-5555-B2C4-8243E3E5C630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features">
+      <UniqueIdentifier>{CC5A46DA-8A29-5A47-8D9C-19188C8DBBB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\DiskTerrainStreaming">
+      <UniqueIdentifier>{D13CF9A4-AC16-525E-8FFC-CA7ECE6BD517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Graphics">
+      <UniqueIdentifier>{6600F273-4019-56E3-B6CD-5E1C34415A51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Collision">
+      <UniqueIdentifier>{294E5103-2133-562D-8BDD-4F3152305CBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\QuadTreeLOD">
+      <UniqueIdentifier>{9570803A-5312-56DC-A37A-9B6EAA8734C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\QuadTreeLODGeomorph">
+      <UniqueIdentifier>{CA72EF7A-708D-55EE-948B-34F0CFF692AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\TriplanarTerrain">
+      <UniqueIdentifier>{6D4E2807-E084-5F9C-8730-552FE80D49B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Terrain">
+      <UniqueIdentifier>{91BE76D8-4060-55F9-8856-347EAF613BF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Terrain\Query">
+      <UniqueIdentifier>{17A71EE3-5419-542E-8CBC-B961E4821A9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Text">
+      <UniqueIdentifier>{2D1D55D3-13B3-51BC-ADDF-82DECDC1DB7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Components">
+      <UniqueIdentifier>{C133DE04-66DF-547F-962A-81F886498DF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Gameplay">
+      <UniqueIdentifier>{5E9CBCA2-2508-5383-8E44-CB3B93CAFFDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Resources">
+      <UniqueIdentifier>{65A0E829-8F8F-54A5-84AE-3BAA698E2E18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Core\IO\AtomicFile.cpp">
+      <Filter>Source\Core\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Timer.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Core\Scene.cpp">
+      <Filter>Source\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Project\Project.cpp">
+      <Filter>Source\Engine\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Serialization\SceneSerializer.cpp">
+      <Filter>Source\Engine\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Runtime\RuntimeSession.cpp">
+      <Filter>Source\Engine\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics\Collision\BroadPhase\BroadPhaseSystem.cpp">
+      <Filter>Source\Physics\Collision\BroadPhase</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics\Collision\Core\CollisionWorld.cpp">
+      <Filter>Source\Physics\Collision\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics\Collision\Detection\CollisionDetector.cpp">
+      <Filter>Source\Physics\Collision\Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics\Query\Raycast.cpp">
+      <Filter>Source\Physics\Query</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Camera.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\CameraController.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Renderer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Frustum.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Mesh.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Texture2D.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Debug\CollisionGeometry.cpp">
+      <Filter>Source\Graphics\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Debug\CollisionDebugRenderer.cpp">
+      <Filter>Source\Graphics\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\Input.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\Window.cpp">
+      <Filter>Source\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\UnicodeProcess.cpp">
+      <Filter>Source\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\DiskTerrainStreaming\TileArchive.cpp">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Graphics\GraphicsResources.cpp">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Collision\CollisionBody.cpp">
+      <Filter>Source\Engine\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\DiskTerrainStreaming\DiskTerrainManager.cpp">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\DiskTerrainStreaming\DiskTileWorker.cpp">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\DiskTerrainStreaming\StreamingRangeDebugRenderer.cpp">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\DiskTerrainStreaming\TileGeometryBuilder.cpp">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\QuadTreeLOD\QuadTreeLOD.cpp">
+      <Filter>Source\Features\QuadTreeLOD</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\QuadTreeLOD\QuadTreeLODSelector.cpp">
+      <Filter>Source\Features\QuadTreeLOD</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\QuadTreeLODGeomorph\QuadTreeLODGeomorph.cpp">
+      <Filter>Source\Features\QuadTreeLODGeomorph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\QuadTreeLODGeomorph\QuadTreeLODGeomorphWorker.cpp">
+      <Filter>Source\Features\QuadTreeLODGeomorph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\TriplanarTerrain\TriplanarMaterial.cpp">
+      <Filter>Source\Features\TriplanarTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Terrain\Query\DiskTerrainQuerySource.cpp">
+      <Filter>Source\Terrain\Query</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Terrain\Query\TerrainQuery.cpp">
+      <Filter>Source\Terrain\Query</Filter>
+    </ClCompile>
+    <ClInclude Include="Source\Core\FeatureConfig.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Timer.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Camera.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\CameraController.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ConstantBuffer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Frustum.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Mesh.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Renderer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Texture2D.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Transform.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\Input.h">
+      <Filter>Source\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\UnicodeProcess.h">
+      <Filter>Source\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Window.h">
+      <Filter>Source\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\IO\AtomicFile.h">
+      <Filter>Source\Core\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\IO\Paths.h">
+      <Filter>Source\Core\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Text\Utf8.h">
+      <Filter>Source\Core\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Collision\CollisionBody.h">
+      <Filter>Source\Engine\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Components\ObjectLink.h">
+      <Filter>Source\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Core\Properties.h">
+      <Filter>Source\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Core\Scene.h">
+      <Filter>Source\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Core\Transform.h">
+      <Filter>Source\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Gameplay\Movement.h">
+      <Filter>Source\Engine\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Graphics\GraphicsResources.h">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Graphics\MeshRendererComponent.h">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Project\Project.h">
+      <Filter>Source\Engine\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Resources\ResourceCache.h">
+      <Filter>Source\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Runtime\RuntimeSession.h">
+      <Filter>Source\Engine\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Serialization\SceneSerializer.h">
+      <Filter>Source\Engine\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\DiskTerrainManager.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\DiskTileWorker.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\MiniMapZoomPolicy.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\PrefetchPolicy.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\StreamingRadiusPolicy.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\StreamingRangeDebugRenderer.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\StreamingTiming.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\TileArchive.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\TileGeometryBuilder.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\DiskTerrainStreaming\TileSampleCache.h">
+      <Filter>Source\Features\DiskTerrainStreaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\QuadTreeLOD\QuadTreeLOD.h">
+      <Filter>Source\Features\QuadTreeLOD</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\QuadTreeLOD\QuadTreeLODSelector.h">
+      <Filter>Source\Features\QuadTreeLOD</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\QuadTreeLODGeomorph\QuadTreeLODGeomorph.h">
+      <Filter>Source\Features\QuadTreeLODGeomorph</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\QuadTreeLODGeomorph\QuadTreeLODGeomorphPolicy.h">
+      <Filter>Source\Features\QuadTreeLODGeomorph</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\QuadTreeLODGeomorph\QuadTreeLODGeomorphWorker.h">
+      <Filter>Source\Features\QuadTreeLODGeomorph</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\TriplanarTerrain\TriplanarMaterial.h">
+      <Filter>Source\Features\TriplanarTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Debug\CollisionDebugRenderer.h">
+      <Filter>Source\Graphics\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Debug\CollisionGeometry.h">
+      <Filter>Source\Graphics\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Query\Raycast.h">
+      <Filter>Source\Physics\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\BroadPhase\BroadPhaseSystem.h">
+      <Filter>Source\Physics\Collision\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\Core\CollisionMath.h">
+      <Filter>Source\Physics\Collision\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\Core\CollisionResult.h">
+      <Filter>Source\Physics\Collision\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\Core\CollisionTypes.h">
+      <Filter>Source\Physics\Collision\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\Core\CollisionWorld.h">
+      <Filter>Source\Physics\Collision\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\Detection\CollisionDetector.h">
+      <Filter>Source\Physics\Collision\Detection</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Terrain\Query\DiskTerrainQuerySource.h">
+      <Filter>Source\Terrain\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Terrain\Query\TerrainPlacement.h">
+      <Filter>Source\Terrain\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Terrain\Query\TerrainQuery.h">
+      <Filter>Source\Terrain\Query</Filter>
+    </ClInclude>
+    <None Include="Source\Platform\app.manifest">
+      <Filter>Source\Platform</Filter>
+    </None>
+  </ItemGroup>
+</Project>
