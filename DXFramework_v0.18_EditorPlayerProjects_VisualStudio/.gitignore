@@ -1,0 +1,4 @@
+# Build descriptions are part of this self-contained historical snapshot.
+!CMakeLists.txt
+!Tests/CMakeLists.txt
+!DXFramework.sln

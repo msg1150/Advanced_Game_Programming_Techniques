@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{9A406B6A-D53A-5411-93FD-951D18A09036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Editor">
+      <UniqueIdentifier>{5189DA9E-F85D-5E17-B82A-B86B72DDF6D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI">
+      <UniqueIdentifier>{E5EF9601-B1AD-5807-9794-B14256B5863C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\Document">
+      <UniqueIdentifier>{700B8282-EF08-512F-A458-4D1D264CB7FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\Document\Runtime">
+      <UniqueIdentifier>{4D186265-10FC-5AE5-AD51-2C96698E5A6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\Document\Serialization">
+      <UniqueIdentifier>{2AC39BA3-914E-55A5-8EB2-164E220F38EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features">
+      <UniqueIdentifier>{DA4822E9-80EA-5AF5-A664-08F96070FBEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features\EngineRuntime">
+      <UniqueIdentifier>{4939D9D9-EDD5-5A86-8633-9CA0B4A07798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Platform">
+      <UniqueIdentifier>{19E2947B-4B05-5D4C-8457-78600745E78A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\Document\Model">
+      <UniqueIdentifier>{8836F989-A65A-529B-91FD-5E2AC05DB353}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Editor\EditorApplication.cpp">
+      <Filter>Source\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Editor\Main.cpp">
+      <Filter>Source\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Editor\ProjectWindow.cpp">
+      <Filter>Source\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\UIManager.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\UIRenderer.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\UIWidget.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\Document\Runtime\UIDocumentLoader.cpp">
+      <Filter>Source\UI\Document\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\Document\Runtime\UIWidgetFactory.cpp">
+      <Filter>Source\UI\Document\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\Document\Serialization\UIXmlParser.cpp">
+      <Filter>Source\UI\Document\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\Document\Serialization\UIXmlWriter.cpp">
+      <Filter>Source\UI\Document\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\EngineRuntime\EngineRuntimeFeature.cpp">
+      <Filter>Source\Features\EngineRuntime</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\SceneFileDialogs.cpp">
+      <Filter>Source\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\FolderDialog.cpp">
+      <Filter>Source\Platform</Filter>
+    </ClCompile>
+    <ClInclude Include="Source\Editor\EditorApplication.h">
+      <Filter>Source\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Editor\ProjectWindow.h">
+      <Filter>Source\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\FolderDialog.h">
+      <Filter>Source\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\SceneFileDialogs.h">
+      <Filter>Source\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UILayout.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIManager.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UINumericValue.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIPlacement.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIRenderer.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIScroll.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UISliderMath.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UITheme.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIWidget.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\EngineRuntime\EngineRuntimeFeature.h">
+      <Filter>Source\Features\EngineRuntime</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Document\Model\UIBindingRegistry.h">
+      <Filter>Source\UI\Document\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Document\Model\UIDocument.h">
+      <Filter>Source\UI\Document\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Document\Runtime\UIDocumentLoader.h">
+      <Filter>Source\UI\Document\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Document\Runtime\UIWidgetFactory.h">
+      <Filter>Source\UI\Document\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Document\Serialization\UIUtf8.h">
+      <Filter>Source\UI\Document\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Document\Serialization\UIXmlParser.h">
+      <Filter>Source\UI\Document\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Document\Serialization\UIXmlWriter.h">
+      <Filter>Source\UI\Document\Serialization</Filter>
+    </ClInclude>
+    <None Include="Source\Platform\app.manifest">
+      <Filter>Source\Platform</Filter>
+    </None>
+  </ItemGroup>
+</Project>

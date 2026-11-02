@@ -1,0 +1,48 @@
+DXENGINE_SCENE 1 "Runtime Sample" 5
+OBJECT 1 0 1 "Player" 0 12 0 0 0 0 2 2 2 3
+COMPONENT "MeshRenderer" 1 4
+"mesh" "Assets/Meshes/Cube.mesh"
+"tint.x" "0.9"
+"tint.y" "0.7"
+"tint.z" "0.15"
+COMPONENT "Collider" 1 5
+"shape" "OBB"
+"extent.x" ".5"
+"extent.y" ".5"
+"extent.z" ".5"
+"trigger" "0"
+COMPONENT "Movement" 1 1
+"speed" "6"
+OBJECT 2 5 1 "Obstacle" 5 12 0 0 0 0 2 3 5 2
+COMPONENT "MeshRenderer" 1 4
+"mesh" "Assets/Meshes/Cube.mesh"
+"tint.x" "0.75"
+"tint.y" "0.3"
+"tint.z" "0.3"
+COMPONENT "Collider" 1 5
+"shape" "OBB"
+"extent.x" ".5"
+"extent.y" ".5"
+"extent.z" ".5"
+"trigger" "0"
+OBJECT 3 0 1 "Trigger" -5 12 0 0 0 0 3 2 3 3
+COMPONENT "MeshRenderer" 1 4
+"mesh" "Assets/Meshes/Cube.mesh"
+"tint.x" "0.3"
+"tint.y" "0.45"
+"tint.z" "0.85"
+COMPONENT "Collider" 1 5
+"shape" "OBB"
+"extent.x" ".5"
+"extent.y" ".5"
+"extent.z" ".5"
+"trigger" "1"
+COMPONENT "ObjectLink" 1 1
+"target" "1"
+OBJECT 4 1 1 "Child Marker" 0 1.4 0 0 0 0 0.35 0.35 0.35 1
+COMPONENT "MeshRenderer" 1 4
+"mesh" "Assets/Meshes/Cube.mesh"
+"tint.x" "0.2"
+"tint.y" "0.9"
+"tint.z" "0.4"
+OBJECT 5 0 1 "Obstacle Group" 0 0 0 0 0 0 1 1 1 0
